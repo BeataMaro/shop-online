@@ -2,7 +2,8 @@ import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../constants/cartConstants";
 import products from "../products";
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
-  const product = products.filter((prod) => prod._id === id);
+  const product = products.find((prod) => prod._id === id);
+  console.log(`to dodaj ${product}`);
 
   dispatch({
     type: CART_ADD_ITEM,

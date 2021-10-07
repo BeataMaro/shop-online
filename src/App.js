@@ -18,7 +18,8 @@ const App = () => {
             <Route path='/' exact component={BlogScreen} />
             <Route path='/about' component={AboutScreen} />
             <Route path='/shop' component={ShopScreen} />
-            <Route path='/cart' component={CartScreen} />
+            {/* id is optional */}
+            <Route path='/cart/:id?' component={CartScreen} />
             <Route path='/product/:id' component={ProductScreen} />
           </Switch>
         </main>

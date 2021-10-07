@@ -35,7 +35,6 @@ const ProductScreen = ({ match, history }) => {
 
   const productDetails = useSelector((state) => state.productDetails);
   const { product } = productDetails;
-  console.log(`W krate:${product}`);
 
   useEffect(() => {
     dispatch(listProductsDetails(match.params.id));
