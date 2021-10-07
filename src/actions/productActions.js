@@ -15,7 +15,6 @@ export const listProducts =
       dispatch({ type: PRODUCT_LIST_REQUEST });
       //res.data
       //   const { data } = await axios.get(`/api/products?keyword=${keyword}`);
-
       dispatch({ type: PRODUCT_LIST_SUCCESS, payload: products });
     } catch (err) {
       dispatch({
@@ -28,11 +27,13 @@ export const listProducts =
 export const listProductsDetails = (id) => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_DETAILS_REQUEST });
-    //res.data
 
-    const product = products.filter((prod) => prod._id === id);
+    const product = products.find((prod) => prod._id === id);
 
-    dispatch({ type: PRODUCT_DETAILS_SUCCESS, payload: product });
+    dispatch({
+      type: PRODUCT_DETAILS_SUCCESS,
+      payload: product,
+    });
   } catch (err) {
     dispatch({
       type: PRODUCT_DETAILS_FAIL,

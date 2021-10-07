@@ -5,6 +5,8 @@ import theme from "./theme";
 import BlogScreen from "./screens/BlogScreen";
 import AboutScreen from "./screens/AboutScreen";
 import ShopScreen from "./screens/ShopScreen";
+import CartScreen from "./screens/CartScreen";
+import ProductScreen from "./screens/ProductScreen";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
             <Route path='/' exact component={BlogScreen} />
             <Route path='/about' component={AboutScreen} />
             <Route path='/shop' component={ShopScreen} />
+            <Route path='/cart' component={CartScreen} />
+            <Route path='/product/:id' component={ProductScreen} />
           </Switch>
         </main>
         <Footer />

@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: 33332,
+    _id: "33332",
     name: "Miękki sweter z wełny alpaki",
     image: "/images/golf.jpg",
     description: "Miękki golf. Skład: 100% wełna alpaki.",
@@ -11,7 +11,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: 367632,
+    _id: "367632",
     name: "Sukienka kopertowa",
     image: "/images/kopertowa-sukienka.webp",
     description: "Dzianinowa sukienka za kolano.",
@@ -22,7 +22,7 @@ const products = [
     numReviews: 16,
   },
   {
-    _id: 898332,
+    _id: "898332",
     name: "Sukienka maxi",
     image: "/images/sukienka.jpg",
     description: "Wzorzysta sukienka z oryginalnym printem.",
@@ -33,7 +33,7 @@ const products = [
     numReviews: 16,
   },
   {
-    _id: 94452,
+    _id: "94452",
     name: "Garnitur w kratę",
     image: "/images/garnitur-w-krate.webp",
     description:
@@ -45,7 +45,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: 1898332,
+    _id: "1898332",
     name: "Cardigan",
     image: "/images/cardigan.webp",
     description:
@@ -57,7 +57,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: 56533,
+    _id: "56533",
     name: "Liliowa czapka",
     image: "/images/liliowa-czapka.webp",
     description: "Wełniana czapka beanie. Skład: 70% wełna merino, 30% bawełna",
@@ -69,7 +69,7 @@ const products = [
   },
 
   {
-    _id: 2133002,
+    _id: "2133002",
     name: "Beżowa czapka",
     image: "/images/bezowa-czapka.jpg",
     description: "Wełniana czapka beanie. Skład: 100% wełna merino",
@@ -80,7 +80,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: 454552,
+    _id: "454552",
     name: "Łososiowa czapka",
     image: "/images/lososiowa-czapka.webp",
     description: "Wełniana czapka beanie. Skład: 100% wełna alpaki",
@@ -91,7 +91,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 3555122,
+    _id: "3555122",
     name: "Pomarańczowa czapka",
     image: "/images/pomaranczowa-czapka.jpg",
     description: "Wełniana czapka beanie. Skład: 100% wełna alpaki",
@@ -102,7 +102,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 9933232,
+    _id: "9933232",
     name: "Żółta czapka",
     image: "/images/zolta-czapka.webp",
     description: "Wełniana czapka beanie. Skład: 100% wełna alpaki",
@@ -113,7 +113,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 726588,
+    _id: "726588",
     name: "Zielona czapka",
     image: "/images/zielona-czapka.webp",
     description: "Wełniana czapka dziecięca, beanie. Skład: 100% wełna alpaki",
@@ -124,7 +124,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 673222,
+    _id: "673222",
     name: "Różowa czapka",
     image: "/images/rozowa-czapka.webp",
     description: "Wełniana czapka dziecięca, beanie. Skład: 100% wełna alpaki",
@@ -135,7 +135,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: 339021,
+    _id: "339021",
     name: "Niebieska czapka",
     image: "/images/niebieska-czapka.webp",
     description: "Wełniana czapka beanie. Skład: 100% wełna alpaki",

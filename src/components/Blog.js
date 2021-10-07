@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, Image } from "react-bootstrap";
 const Blog = () => {
   return (
     <section>
-      <Container fluid>
+      <Container>
         <Row className='my-5 d-flex'>
           <Col md={6}>
             <h2 className='text-center my-3'>BLOG</h2>
